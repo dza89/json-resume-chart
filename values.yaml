@@ -1,0 +1,190 @@
+theme: kwan
+
+data: | 
+  {
+    "basics": {
+      "name": "Daan Potter",
+      "label": "Kubernetes/Cloud Engineer at Nationale-Nederlanden",
+      "picture": "",
+      "email": "dhapotter@gmail.com",
+      "phone": "",
+      "website": "",
+      "summary": "",
+      "location": {
+        "address": "Wagenaarstraat 322",
+        "postalCode": "1093 CX",
+        "city": "Amsterdam",
+        "countryCode": "NL",
+      },
+      "profiles": [{
+        "network": "LinkedIn",
+        "username": "92957641",
+        "url": "https://www.linkedin.com/in/92957641/"
+      },
+      {
+        "network": "Github",
+        "username": "dza89",
+        "url": "https://github.com/dza89"
+      },
+      ]
+    },
+    "work": [{
+        "company": "Nationale-Nederlanden",
+        "endDate": "",
+        "highlights": ["Developed multiple Golang applications"],
+        "position": "Kubernetes/Cloud Engineer",
+        "startDate": "2019-07-31",
+        "website": "https://www.linkedin.com/company/1211",
+        "summary": "Develop and maintain more than thirty multi-tenancy clusters in Azure and AWS"
+      },
+      {
+        "company": "Nationale-Nederlanden",
+        "endDate": "2019-07-31",
+        "highlights": ["Created a fully immutable CI-CD environment", "cut costs with eighty procent"],
+        "position": "Cloud Engineer",
+        "startDate": "2018-05-31",
+        "summary": "Responsible for creating the Golden image used by thousands of machines throughout the company"
+      },
+      {
+        "company": "Nationale-Nederlanden",
+        "endDate": "2018-05-31",
+        "highlights": ["Streamlined the entire request process"],
+        "summary": "Responsible for the back - end banking systems of Nationale Nederlanden",
+        "position": "DevOps Engineer ",
+        "startDate": "2017-11-30"
+      },
+      {
+        "company": "Nationale-Nederlanden",
+        "endDate": "2017-11-30",
+        "highlights": ["automated various tasks", "managed upgrades and migrations"],
+        "position": "Service Management",
+        "startDate": "2016-12-31",
+        "summary": "Responsible for the back - end banking systems of Nationale Nederlanden",
+        "website": "https://www.linkedin.com/company/1211"
+      },
+      {
+        "company": "Calco",
+        "endDate": "2018-09-30",
+        "highlights": [],
+        "position": "MasterClass Professional",
+        "startDate": "2016-10-31",
+        "website": "https://www.linkedin.com/company/46332"
+      },
+      {
+        "company": "Solid Optics",
+        "endDate": "2015-12-31",
+        "highlights": [],
+        "position": "Technical Sales Manager",
+        "startDate": "2013-09-30",
+        "website": "https://www.linkedin.com/company/4975422"
+      },
+      {
+        "company": "Delta Lloyd",
+        "endDate": "2013-06-30",
+        "highlights": [],
+        "position": "Relationship Manager",
+        "startDate": "2012-02-28",
+        "website": "https://www.linkedin.com/company/4201"
+      },
+      {
+        "company": "American Express",
+        "endDate": "2012-02-28",
+        "highlights": [],
+        "position": "Risk Analyst",
+        "startDate": "2011-02-28",
+        "website": "https://www.linkedin.com/company/1277"
+      }
+    ],
+    "volunteer": [],
+    "education": [{
+        "institution": "VU University Amsterdam",
+        "area": "",
+        "studyType": "Master of Business Administration (M.B.A.)",
+        "startDate": "2016-12-31",
+        "endDate": "2016-12-31",
+        "gpa": "",
+        "courses": []
+      },
+      {
+        "institution": "Amsterdam University of Applied Sciences",
+        "area": "International Marketing",
+        "studyType": "Bachelor’s Degree",
+        "startDate": "2010-12-31",
+        "endDate": "2014-12-31",
+        "gpa": "",
+        "courses": []
+      },
+      {
+        "institution": "Vrije Universiteit Amsterdam",
+        "area": "",
+        "studyType": "",
+        "startDate": "2008-12-31",
+        "endDate": "2010-12-31",
+        "gpa": "",
+        "courses": []
+      }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [{
+        "name": "Golang",
+        "level": "advanced"
+      },
+      {
+        "name": "Python",
+        "level": "advanced",
+        "keywords": ["languages"]
+      },
+      {
+        "name": "Bash",
+        "level": "advanced",
+        "keywords": ["languages"]
+      },
+      {
+        "name": "GoCD",
+        "level": "advanced",
+        "keywords": ["cicd"]
+      },
+      {
+        "name": "Azure Devops",
+        "level": "advanced",
+        "keywords": ["cicd"]
+      },
+      {
+        "name": "Gitlab",
+        "level": "advanced",
+        "keywords": ["cicd"]
+      },
+      {
+        "name": "Terraform",
+        "level": "advanced",
+        "keywords": ["tooling"]
+      },
+      {
+        "name": "Ansible",
+        "level": "advanced",
+        "keywords": ["tooling"]
+      },
+      {
+        "name": "Gitlab",
+        "level": "advanced",
+        "keywords": ["tooling"]
+      },
+      {
+        "name": "AWS",
+        "level": "advanced",
+        "keywords": ["platform"]
+      },
+      {
+        "name": "Azure",
+        "level": "intermediate",
+        "keywords": ["platform"]
+      }
+    ],
+    "languages": [{
+      "language": "en",
+      "fluency": "Native Speaker"
+    }],
+    "interests": [],
+    "references": []
+  }
