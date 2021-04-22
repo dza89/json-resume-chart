@@ -31,13 +31,10 @@ service:
   port: 80
 
 ingress:
-  enabled: true
-  annotations:
-    traefik.ingress.kubernetes.io/router.middlewares: traefik-chain-oauth@kubernetescrd
-    traefik.ingress.kubernetes.io/router.tls: "true"
-    kubernetes.io/ingress.class: traefik
+  enabled: false
+  annotations: {}
   hosts:
-    - host: resume.maxgeheugentrainer.com
+    - host: resume.myawesomewebsite.com
       paths: 
         - /
 
