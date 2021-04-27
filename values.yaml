@@ -44,7 +44,7 @@ data: |
   	"work": [{
   			"company": "Nationale-Nederlanden",
   			"endDate": "",
-  			"highlights": ["Creating enterprise ready self-service Kubernetes environments", "Developed multiple Go applications", "Integration and Deployments with Gitlab and GoCD"],
+  			"highlights": ["Create enterprise ready self-service Kubernetes environments", "Developed multiple Go applications", "Integration and Deployments with Gitlab and GoCD"],
   			"position": "Kubernetes/Cloud Engineer",
   			"startDate": "2019-07-31",
   			"website": "https://www.linkedin.com/company/1211",
