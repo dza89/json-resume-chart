@@ -1,3 +1,4 @@
+{{- if not (hasPrefix "https://" .Values.ingress.jsonResume) -}}
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -9,3 +10,4 @@ metadata:
     helm.sh/chart: {{ include "resume.chart" $ }}
 data:
   resume.json: {{ .Values.data | toJson }}
+  {{ end }}

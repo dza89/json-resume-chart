@@ -64,7 +64,13 @@ tolerations: []
 
 affinity: {}
 
-data: |
+# https://gist.githubusercontent.com/dza89/041972449bc2720084388ecf6903cad2/raw/5c5bf030f52307c813c41f23b0673c3a595e7906/resume.json
+
+curl: 
+  image: curlimages/curl
+  tag: latest
+# can be either a complete json as in the example below, or a uri to a json file, for example a github gist, must start with https://.
+jsonResume: |
   {
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
