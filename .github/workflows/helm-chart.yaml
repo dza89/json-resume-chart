@@ -28,5 +28,3 @@ jobs:
         uses: helm/chart-releaser-action@v1.4.0
         env:
           CR_TOKEN: "${{ secrets.GHCR_PAT }}"
-        with:
-          charts_dir: chart

@@ -4,11 +4,11 @@ on:
   push:
     branches: [ "master" ]
     paths:
-      - Dockerfile
+      - container/**
   pull_request:
     branches: [ "master" ]
     paths:
-      - Dockerfile
+      - container/**
 
 jobs:
   build:
