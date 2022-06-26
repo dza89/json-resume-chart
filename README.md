@@ -1,8 +1,9 @@
 # resume-json-chart
 
-Deploy your own jsonresume to kubernetes.
+Deploy your own json-resume to kubernetes.
 
-1. helm repo add  
-`json-resume https://dza89.github.io/k8s-json-resume
- helm repo update`
-2. helm upgrade --install json-resume
+```bash
+helm repo add json-resume https://dza89.github.io/k8s-json-resume
+helm repo update
+helm upgrade --install json-resume
+```
