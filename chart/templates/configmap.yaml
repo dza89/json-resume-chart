@@ -1,4 +1,4 @@
-{{- if not (hasPrefix "https://" .Values.ingress.jsonResume) -}}
+{{- if not (hasPrefix "https://" .Values.jsonResume) -}}
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -9,5 +9,5 @@ metadata:
     app.kubernetes.io/managed-by: {{ $.Release.Service }}
     helm.sh/chart: {{ include "resume.chart" $ }}
 data:
-  resume.json: {{ .Values.data | toJson }}
-  {{ end }}
+  resume.json: {{ .Values.jsonResume | toJson }}
+{{ end }}

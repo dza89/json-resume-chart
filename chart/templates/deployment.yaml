@@ -26,15 +26,19 @@ spec:
       {{- end }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
-      # {{- if hasPrefix "https://" .Values.jsonResume -}}
-      # initContainers:
-      #     - name: "curl"
-      #       image: {{ .Values.curl.image.repository }}:{{ .Values.curl.image.tag }}
-      #       args: ['-LO', {{ values.jsonResume }}, '>', '/config/resume.json']
-      #       volumeMounts:
-      #       - name: resume
-      #         mountPath: /config
-      {{- end }}
+      initContainers:
+          - name: "curl"
+            image: {{ .Values.curl.image.repository }}:{{ .Values.curl.image.tag }}
+            imagePullPolicy: {{ .Values.image.pullPolicy }}
+            command:
+              - curl
+              - -L
+              - {{ .Values.jsonResume }}
+              - -o 
+              - /config/resume.json
+            volumeMounts:
+            - name: resume
+              mountPath: /config
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
@@ -76,9 +80,4 @@ spec:
       {{- end }}
       volumes:
         - name: resume
-          {{- if not (hasPrefix "https://" .Values.jsonResume) -}}
-          configMap:
-            name: {{ include "resume.fullname" $ }}-config
-          {{- else }}
-          emptyDir:
-          {{- end }}
+          emptyDir: {}
