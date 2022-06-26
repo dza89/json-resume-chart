@@ -1,4 +1,4 @@
-FROM node:15.14.0-alpine3.12
+FROM node:alpine-lts
 RUN npm install -g resume-cli
 EXPOSE 4000
 CMD [ "resume"]
