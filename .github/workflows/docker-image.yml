@@ -24,8 +24,9 @@ jobs:
       id: changed_files
   
     - name: Build image and push to GitHub Container Registry
-      uses: docker/build-push-action@v2
+      uses: docker/build-push-action@v3
       with:
+        context: "{{defaultContext}}:container"
         tags: |
             ghcr.io/dza89/resume-cli:latest
         push: ${{ github.ref == 'refs/heads/master' }}
