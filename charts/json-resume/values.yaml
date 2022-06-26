@@ -2,12 +2,23 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+# location of your jsonresume
+jsonResume: https://gist.githubusercontent.com/thomasdavis/c9dcfa1b37dec07fb2ee7f36d7278105/raw/582fca370cbc0e4a7d80e6c424ca2a559102fb8b/resume.json
+
+# https://jsonresume.org/themes/
+theme:
+
 replicaCount: 1
 
 image:
   repository: dza123/resume
   pullPolicy: IfNotPresent
   tag: "0.2.0"
+
+curl: 
+  image: 
+    repository: curlimages/curl
+    tag: latest
 
 imagePullSecrets: []
 nameOverride: ""
@@ -64,9 +75,3 @@ tolerations: []
 
 affinity: {}
 
-curl: 
-  image: 
-    repository: curlimages/curl
-    tag: latest
-
-jsonResume: https://gist.githubusercontent.com/thomasdavis/c9dcfa1b37dec07fb2ee7f36d7278105/raw/582fca370cbc0e4a7d80e6c424ca2a559102fb8b/resume.json
