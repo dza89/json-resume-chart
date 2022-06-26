@@ -11,9 +11,9 @@ theme:
 replicaCount: 1
 
 image:
-  repository: dza123/resume
+  repository: ghcr.io/dza89/resume-cli
   pullPolicy: IfNotPresent
-  tag: "0.2.0"
+  tag: latest
 
 curl: 
   image: 
