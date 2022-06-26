@@ -1,7 +1,8 @@
 # resume-json-chart
 
-This repo contains all necessities to deploy a resume-cli container to a kubernetes cluster using helm.
+Deploy your own jsonresume to kubernetes.
 
-1. helm repo add  json-resume https://dza89.github.io/json-resume-chart && helm repo update
-2. Create your own values.yaml
-3. helm upgrade --install json-resume -f your-own-values.yaml
+1. helm repo add  
+`json-resume https://dza89.github.io/k8s-json-resume
+ helm repo update`
+2. helm upgrade --install json-resume
