@@ -3,26 +3,6 @@ entries:
   json-resume:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-26T18:37:31.151089105Z"
-    description: Deploy your own json-resume to kubernetes.
-    digest: b376aadde3bb28aff1277bcd1d8f5d2a5019c48a522247a339da00ab18d5eca7
-    name: json-resume
-    type: application
-    urls:
-    - https://github.com/dza89/k8s-json-resume/releases/download/json-resume-0.3.0/json-resume-0.3.0.tgz
-    version: 0.3.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-06-26T18:23:55.409149871Z"
-    description: A Helm chart for Kubernetes
-    digest: 1db451656f7ad466b330009a27cfd52a52195cf342789768adeae2dd835961ff
-    name: json-resume
-    type: application
-    urls:
-    - https://github.com/dza89/k8s-json-resume/releases/download/json-resume-0.2.0/json-resume-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 1.16.0
     created: "2022-06-26T17:38:11.164248661Z"
     description: A Helm chart for Kubernetes
     digest: 91bc5d9cf45e401cb792a99d6b64344aa3ae1065b8699bab352547f1e4bd7362
