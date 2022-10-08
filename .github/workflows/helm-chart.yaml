@@ -2,11 +2,11 @@ name: Helm Chart Release
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
     paths:
       - charts/**
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
     paths:
       - charts/**
       
