@@ -30,7 +30,8 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: "{{defaultContext}}:container"
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64
+          #linux/arm64,nochromium
           push: true
           tags: ghcr.io/dza89/resume-cli:latest
 
